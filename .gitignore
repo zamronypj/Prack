@@ -1,3 +1,52 @@
+#------------------------------------------------------------
+# Fano Web Framework Skeleton Application (https://fanoframework.github.io)
+#
+# @link      https://github.com/fanoframework/fano-api
+# @copyright Copyright (c) 2018 Zamrony P. Juhara
+# @license   https://github.com/fanoframework/fano-api/blob/master/LICENSE (GPL 3.0)
+#-------------------------------------------------------------
+
+#----------------------------------------------
+# Ignore compiler switches configurations
+#----------------------------------------------
+build.cfg
+build.dev.cfg
+build.prod.cfg
+
+#----------------------------------------------
+# Ignore any generated compiled units
+#----------------------------------------------
+bin/unit/*
+
+#----------------------------------------------
+# Ignore generated binary executable
+#----------------------------------------------
+bin/out/*
+
+#----------------------------------------------
+# Do not ignore README.md
+# This file is provided to make git create
+# /bin/unit when repository is cloned
+#----------------------------------------------
+!bin/unit/README.md
+
+#----------------------------------------------
+# Do not ignore README.md
+# This file is provided to make git create
+# /bin/out when repository is cloned
+#----------------------------------------------
+!bin/out/README.md
+
+#----------------------------------------------
+# Ignore FreePascal built-in console IDE generated files
+#----------------------------------------------
+fp.dir
+
+#----------------------------------------------
+# Ignore Lazarus local files (user-specific info)
+#----------------------------------------------
+*.lps
+
 /src/Prack
 /tests/PrackTests
 /src/lib
