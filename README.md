@@ -51,13 +51,13 @@ Proof of concept, not production ready. It's still under heavy development.
 
 ## How to build:
 
-Copy compiler configuration if this is first time build by running
+Copy compiler configuration if this is first time build
 
 ```
 $ ./tools/config.setup.sh
 ```
 
-Run
+To build, run
 
 ```
 $ ./build.sh
