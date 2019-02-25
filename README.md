@@ -71,3 +71,11 @@ By default Prack binary will be put in `bin` unit.
 ```
 $ ./bin/Prack
 ```
+
+## Remove compiled units
+
+Sometime you may want to remove compiled units. `tools/clean.sh` script is provided to simplify this task.
+
+```
+$ ./tools/clean.sh
+```
