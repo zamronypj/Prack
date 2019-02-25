@@ -50,4 +50,24 @@ Proof of concept, not production ready. It's still under heavy development.
 - Security
 
 ## How to build:
-`lazbuild PrackServerApp.lpr`
+
+Copy compiler configuration if this is first time build by running
+
+```
+$ ./tools/config.setup.sh
+```
+
+Run
+
+```
+$ ./build.sh
+```
+
+
+## Run
+
+By default Prack binary will be put in `bin` unit.
+
+```
+$ ./bin/Prack
+```

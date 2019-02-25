@@ -1,9 +1,8 @@
 #------------------------------------------------------------
-# Fano Web Framework Skeleton Application (https://fanoframework.github.io)
+# Prack Simple Scalable Web Server (https://github.com/zamronypj/Prack)
 #
-# @link      https://github.com/fanoframework/fano-api
-# @copyright Copyright (c) 2018 Zamrony P. Juhara
-# @license   https://github.com/fanoframework/fano-api/blob/master/LICENSE (GPL 2.0)
+# @copyright Copyright (c) 2018 Ricardo Cruz
+# @license   https://github.com/zamronypj/Prack/blob/master/LICENSE (MIT)
 #-------------------------------------------------------------
 #!/bin/bash
 
