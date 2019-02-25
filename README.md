@@ -66,10 +66,10 @@ $ ./build.sh
 
 ## Run
 
-By default Prack binary will be put in `bin` unit.
+By default Prack binary will be put in `bin/out` unit. Run Prack web server
 
 ```
-$ ./bin/Prack
+$ ./bin/out/Prack
 ```
 
 ## Remove compiled units
