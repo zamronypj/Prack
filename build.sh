@@ -19,7 +19,7 @@ export BUILD_TYPE="prod"
 fi
 
 if [[ -z "${EXEC_OUTPUT_DIR}" ]]; then
-    export EXEC_OUTPUT_DIR="bin"
+    export EXEC_OUTPUT_DIR="bin/out"
 fi
 
 if [[ -z "${UNIT_OUTPUT_DIR}" ]]; then
