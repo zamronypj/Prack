@@ -72,6 +72,15 @@ By default Prack binary will be put in `bin/out` unit. Run Prack web server
 $ ./bin/out/Prack
 ```
 
+By default, Prack gateway server listens on `0.0.0.0:8080` and
+api server listens on `0.0.0.0:4242`.
+
+If you need to change it to different settings, set is as command line argument.
+
+```
+Prack [gateway server host] [gateway server port] [api server host] [api server port]
+```
+
 ## Remove compiled units
 
 Sometime you may want to remove compiled units. `tools/clean.sh` script is provided to simplify this task.
