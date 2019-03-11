@@ -45,6 +45,12 @@ fp.dir
 # Ignore Lazarus local files (user-specific info)
 #----------------------------------------------
 *.lps
+/src/Prack
+/dist/
+!/dist/README.md
+/src/lib
 /**/backup
 /**/*.lps
 /**/*.dSYM
+/**/*.o
+/**/*.ppu

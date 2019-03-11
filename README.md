@@ -59,7 +59,9 @@ Proof of concept, not production ready. It's still under heavy development.
 - Website and extensive documentation, with a good amount of examples
 - Security
 
-## How to build:
+## How to build
+
+### Build with shell script
 
 Copy compiler configuration if this is first time build
 
@@ -72,6 +74,12 @@ To build, run
 ```
 $ ./build.sh
 ```
+### Build with make
+
+```
+$ make
+```
+This will produce an executable inside `dist` folder.
 
 
 ## Run
