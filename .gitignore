@@ -46,8 +46,8 @@ fp.dir
 #----------------------------------------------
 *.lps
 /src/Prack
-/dist/
-!/dist/README.md
+/dist/*
+!dist/README.md
 /src/lib
 /**/backup
 /**/*.lps
